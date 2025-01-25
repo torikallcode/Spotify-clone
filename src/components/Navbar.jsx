@@ -9,10 +9,10 @@ export const Navbar = () => {
         <div className="flex items-center justify-between flex-1 gap-4">
           <div className="hidden gap-2 lg:flex">
             <button className="flex items-center justify-center w-8 h-8 transition-colors rounded-full bg-black/60 hover:bg-black/40">
-              <ChevronLeft className="w-5 h-5" />
+              <ChevronLeft className="w-1 h-1" />
             </button>
             <button className="flex items-center justify-center w-8 h-8 transition-colors rounded-full bg-black/60 hover:bg-black/40">
-              <ChevronRight className="w-5 h-5" />
+              <ChevronRight className="w-1 h-1" />
             </button>
           </div>
           {/* Search - Full width on mobile */}

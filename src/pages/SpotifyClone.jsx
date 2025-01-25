@@ -81,16 +81,23 @@ const SpotifyClone = () => {
     setIsPlaying(!isPlaying);
   };
 
+  const handleCloseMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
-    <div className="flex flex-col h-screen text-white bg-black md:flex-row">
+    <div className="flex flex-col h-screen text-white bg-black lg:flex-row">
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        className="fixed z-50 p-2 rounded-full md:hidden top-4 left-4"
+        className="fixed z-50 p-2 rounded-full md:hidden top-4 left-3"
       >
         {isMobileMenuOpen ? <X /> : <Menu />}
       </button>
-      <SideBar />
+      <SideBar
+        className={isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+        onClose={handleCloseMobileMenu}
+      />
       {/* Main Content */}
       <div className="flex-1 overflow-auto bg-[#121212]">
         <Navbar />
