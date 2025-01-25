@@ -50,7 +50,7 @@ const SpotifyClone2 = () => {
 
       {/* Left Sidebar - Responsive */}
       <div
-        className={`fixed left-0 top-0 h-screen bg-black transition-all duration-300 z-40
+        className={`fixed left-0 top-0 h-screen bg-yellow-500 transition-all duration-300 z-40
           ${isMobileMenuOpen ? 'w-full md:w-72' : 'w-0 lg:w-64'} 
           lg:translate-x-0 
           ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}

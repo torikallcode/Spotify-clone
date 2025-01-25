@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'poppins': ['Poppins', 'sans-serif'],
+      },
       keyframes: {
         'fade-in': {
           '0%': { opacity: '0' },
@@ -22,5 +25,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }
