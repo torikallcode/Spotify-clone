@@ -7,9 +7,9 @@ export const ArtistSection = () => {
     <div className="relative overflow-hidden md:rounded-lg font-poppins">
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-black" />
       <img
-        src="/img/spotify.png"
+        src="/img/h1111.jpg"
         alt="Artist Cover"
-        className="w-full h-[200px] sm:h-[250px] md:h-[350px] object-cover object-top"
+        className="w-full h-[200px] sm:h-[250px] md:h-[350px] object-cover object-center"
       />
       <div className="absolute z-20 bottom-4 sm:bottom-8 left-4 sm:left-8">
         <div className="bg-[#0C67D3] text-xs px-2 py-1 rounded-full inline-flex items-center gap-1">

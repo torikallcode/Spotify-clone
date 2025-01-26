@@ -2,7 +2,7 @@ import React from 'react'
 
 export const CardAbout = () => {
   return (
-    <a href="#" className="relative block bg-black inset-0 group aspect-[1/1] lg:aspect-[5/3]  max-h-[450px] bg-cover bg-center " style={{ backgroundImage: `url(/img/p3.jpeg)` }}>
+    <a href="#" className="relative block bg-black inset-0 group aspect-[1/1] lg:aspect-[5/3]  max-h-[450px] bg-cover bg-center " style={{ backgroundImage: `url(/img/p3-2.jpg)` }}>
       {/* <img
         alt=""
         src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"

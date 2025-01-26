@@ -8,7 +8,7 @@ export const PopularSection = ({ id, index, image, title, albumName, plays, dura
     >
       <span className="hidden text-base md:block">{index}</span>
       <div className="flex items-center col-span-2 gap-4 md:col-span-1">
-        <img src={image} alt="" className="flex-shrink-0 w-11 h-w-11" />
+        <img src={image} alt="" className="flex-shrink-0 w-11 object-cover object-center aspect-[1/1]" />
         <div className="flex flex-col min-w-0">
           <span className="text-sm font-medium text-white truncate">{title}</span>
           <span className="text-sm text-gray-400 truncate">{albumName}</span>

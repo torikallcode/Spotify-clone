@@ -15,27 +15,27 @@ const Featuring = () => {
       {
         artist: 'Juicy Luicy',
         track: 'Trending Track',
-        image: '/img/p1.jpg'
+        image: '/img/ls6.jpeg'
       },
       {
         artist: 'Sal Priadi',
         track: 'Popular Song',
-        image: '/img/p1.jpg'
+        image: '/img/ls7.jpeg'
       },
       {
         artist: 'Mahalini',
         track: 'Hit Single',
-        image: '/img/p1.jpg'
+        image: '/img/ls8.jpeg'
       },
       {
         artist: 'Dewa 19',
         track: 'Separuh Nafas',
-        image: '/img/p1.jpg'
+        image: '/img/ls9.jpeg'
       },
       {
         artist: 'Noah',
         track: 'Separuh Aku',
-        image: '/img/p1.jpg'
+        image: '/img/p3-f.jpg'
       },
     ],
   };

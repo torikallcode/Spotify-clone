@@ -16,11 +16,9 @@ const SpotifyClone = () => {
   const [showModal, setShowModal] = useState(false);
 
   const birthdayLyrics = [
-    "🎵 Di hari yang spesial ini...",
-    "🎂 Ku ucapkan selamat ulang tahun...",
-    "✨ Semoga semua impianmu terwujud...",
-    "💝 Dan selalu bahagia bersamaku...",
-    "🌟 Aku sayang kamu...",
+    "Hai Karina...",
+    "Di hari yang spesial ini Ku ucapkan selamat ulang tahunSemoga semua impianmu terwujudDan selalu bahagia bersamakuAku sayang kamu...",
+    "With All My Love",
   ];
 
   const popularSongs = [
@@ -29,7 +27,7 @@ const SpotifyClone = () => {
       title: "Satu Bulan",
       plays: "278,438,715",
       duration: "3:20",
-      image: "/img/p3.jpeg",
+      image: "/img/ls1.jpeg",
       albumName: "Satu Bulan - Single"
     },
     {
@@ -37,7 +35,7 @@ const SpotifyClone = () => {
       title: "Untungnya, Hidup Harus Tetap Berjalan",
       plays: "172,498,258",
       duration: "3:02",
-      image: "/img/p3.jpeg",
+      image: "/img/ls2.jpeg",
       albumName: "Life Album"
     },
     {
@@ -45,7 +43,7 @@ const SpotifyClone = () => {
       title: "Kata Mereka Ini Berlebihan",
       plays: "191,332,932",
       duration: "3:11",
-      image: "/img/p3.jpeg",
+      image: "/img/ls3.jpeg",
       albumName: "Latest Singles"
     },
     {
@@ -53,7 +51,7 @@ const SpotifyClone = () => {
       title: "Kata Mereka Ini Berlebihan",
       plays: "191,332,932",
       duration: "3:11",
-      image: "/img/p3.jpeg",
+      image: "/img/ls4.jpeg",
       albumName: "Latest Singles"
     },
     {
@@ -61,15 +59,10 @@ const SpotifyClone = () => {
       title: "Kata Mereka Ini Berlebihan",
       plays: "191,332,932",
       duration: "3:11",
-      image: "/img/p3.jpeg",
+      image: "/img/ls5.jpeg",
       albumName: "Latest Singles"
     },
   ];
-
-  // const handlePlayClick = () => {
-  //   setIsPlaying(!isPlaying);
-  //   setShowModal(true);
-  // };
 
   const handlePlayClick = () => {
     setIsPlaying(!isPlaying);
