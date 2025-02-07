@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="py-10 text-white sm:py-16 font-poppins">
-      <div className="container grid grid-cols-1 gap-8 px-4 mx-auto sm:px-6 lg:px-8 sm:grid-cols-2 md:grid-cols-4">
+      <div className="container grid grid-cols-2 gap-8 px-4 mx-auto sm:px-6 lg:px-8 md:grid-cols-4">
         <div>
           <h3 className="mb-4 text-base font-semibold">Company</h3>
           <ul className="space-y-2">
@@ -22,14 +22,14 @@ const Footer = () => {
             <li><a href="#" className="text-sm text-gray-400">Vendors</a></li>
           </ul>
         </div>
-        <div className='hidden lg:block'>
+        <div className=''>
           <h3 className="mb-4 text-base font-semibold">Useful links</h3>
           <ul className="space-y-2">
             <li><a href="#" className="text-sm text-gray-400">Support</a></li>
             <li><a href="#" className="text-sm text-gray-400">Free Mobile App</a></li>
           </ul>
         </div>
-        <div className='hidden lg:block'>
+        <div className=''>
           <h3 className="mb-4 text-base font-semibold">Spotify Plans</h3>
           <ul className="space-y-2">
             <li><a href="#" className="text-sm text-gray-400">Premium Individual</a></li>
