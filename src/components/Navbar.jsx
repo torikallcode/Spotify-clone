@@ -27,7 +27,7 @@ export const Navbar = () => {
         </div>
         {/* Auth buttons - Stack on mobile */}
         <div className="flex gap-2 ml-auto">
-          <button className="px-4 py-2 text-gray-300 hover:text-white sm:block">Sign up</button>
+          <button className="px-4 py-2 font-semibold text-gray-300 hover:text-white sm:block">Sign up</button>
           <button className="px-8 py-2 font-bold text-black bg-white rounded-full hover:scale-105">Log in</button>
         </div>
       </div>
