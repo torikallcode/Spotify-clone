@@ -6,7 +6,7 @@ export const BirthdayModal = ({
   onClose,
   lyrics,
   name = "Karina",
-  imageUrl = "/img/p1.jpg"
+  imageUrl = "/img/p3-f.jpg"
 }) => {
   const [showContent, setShowContent] = useState(false);
 
@@ -61,7 +61,7 @@ export const BirthdayModal = ({
             alt="Birthday Celebration"
             className="absolute inset-0 object-cover w-full h-full filter brightness-75"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
 
           {/* Animated Sparkles */}
           <div className="absolute inset-0 flex items-end justify-start bottom-3 left-3">
