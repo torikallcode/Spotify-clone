@@ -30,18 +30,18 @@ const Footer = () => {
           </ul>
         </div>
         <div className=''>
-          <h3 className="mb-4 text-base font-semibold">Spotify Plans</h3>
+          <h3 className="mb-4 text-base font-semibold">Musik Plans</h3>
           <ul className="space-y-2">
             <li><a href="#" className="text-sm text-gray-400">Premium Individual</a></li>
             <li><a href="#" className="text-sm text-gray-400">Premium Duo</a></li>
             <li><a href="#" className="text-sm text-gray-400">Premium Family</a></li>
             <li><a href="#" className="text-sm text-gray-400">Premium Student</a></li>
-            <li><a href="#" className="text-sm text-gray-400">Spotify Free</a></li>
+            <li><a href="#" className="text-sm text-gray-400">Musik Free</a></li>
           </ul>
         </div>
       </div>
       <div className="mt-8 text-sm text-center">
-        <p>&copy; {new Date().getFullYear()} Spotify AB</p>
+        <p>&copy; {new Date().getFullYear()} Musik AB</p>
       </div>
     </footer>
   );
