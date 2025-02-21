@@ -19,9 +19,9 @@ export const CardAbout = () => {
           <div
             className="opacity-100 "
           >
-            <h2 className='text-2xl font-bold text-white'>Bernadya</h2>
+            <h2 className='text-2xl font-bold text-white'>Lala</h2>
             <p className="max-w-2xl text-sm text-white">
-              Bernadya, the Jakarta-based singer-songwriter, is known for her heart-breaking songwriting. Debuted with her first single in 2022 which eventually became an internet sensation, Bernadya released her first EP “Terlintas” in 2023.
+              Lala, the Soul-based singer-songwriter, is known for her heart-breaking songwriting. Debuted with her first single in 2025 which eventually became an internet sensation, Lala released her first EP “soulful journey” in 2025.
             </p>
           </div>
         </div>
