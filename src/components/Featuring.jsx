@@ -13,27 +13,27 @@ const Featuring = () => {
   const playlists = {
     'Bernadya Radio': [
       {
-        artist: 'Juicy Luicy',
+        artist: 'Lala',
         track: 'Trending Track',
         image: '/img/ls6.jpeg'
       },
       {
-        artist: 'Sal Priadi',
+        artist: 'Lala',
         track: 'Popular Song',
         image: '/img/ls7.jpeg'
       },
       {
-        artist: 'Mahalini',
+        artist: 'Lala',
         track: 'Hit Single',
         image: '/img/ls8.jpeg'
       },
       {
-        artist: 'Dewa 19',
+        artist: 'Lala',
         track: 'Separuh Nafas',
         image: '/img/ls9.jpeg'
       },
       {
-        artist: 'Noah',
+        artist: 'Lala',
         track: 'Separuh Aku',
         image: '/img/p3-f.jpg'
       },
