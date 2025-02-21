@@ -5,7 +5,7 @@ export const BirthdayModal = ({
   isOpen,
   onClose,
   lyrics,
-  name = "Karina",
+  name = "Lala",
   imageUrl = "/img/p3-f.jpg"
 }) => {
   const [showContent, setShowContent] = useState(false);
@@ -106,7 +106,7 @@ export const BirthdayModal = ({
                   opacity-0 transform translate-y-10
                   transition-all duration-700 ease-out
                   ${showContent ? 'opacity-100 translate-y-0' : ''}
-                `}>Rikal</h2>
+                `}>Elka</h2>
 
           {/* Decorative Hearts */}
           <div className="flex justify-center space-x-2 mt-14">
